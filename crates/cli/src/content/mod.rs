@@ -46,7 +46,7 @@ impl SQL {
 
         Self {
             files: Vec::new(),
-            folder: ".stone".to_string()
+            folder: ".stone".to_string(),
         }
     }
 }

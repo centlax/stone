@@ -1,0 +1,10 @@
+{
+    "name": "@stone/root",
+    "private": true,
+    "workspaces": [
+      "packages/*"
+    ],
+    "scripts": {
+        "git": "bash .scripts/git.sh"
+    }
+  }

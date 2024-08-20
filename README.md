@@ -12,7 +12,7 @@
 
 In traditional SQL:
 
-```sql
+``` sql
 CREATE TABLE users (
     id SERIAL PRIMARY KEY,                 -- Auto-incrementing primary key
     username VARCHAR(50) NOT NULL UNIQUE,  -- Username must be unique and not null
