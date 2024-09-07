@@ -2,7 +2,7 @@
     "name": "@stone/root",
     "private": true,
     "workspaces": [
-      "packages/*"
+      "pkgs/*"
     ],
     "scripts": {
         "git": "bash .scripts/git.sh"

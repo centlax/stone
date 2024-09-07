@@ -1,8 +1,15 @@
 [workspace]
 resolver = "2"
-members = [ "crates/*"]
+members = [ "crates/*", "stone"]
 
 [workspace.package]
 edition = "2021"
 version = "0.0.1"
 repository = "https://github.com/centlax/stone"
+
+[workspace.dependencies]
+tokio = { version = "1.38.0", features = ["full"] }
+dotenv = "0.15.0"
+walkdir = "2.3.2"
+chrono = "0.4"
+serde_json = {  version = "1.0.128"}
